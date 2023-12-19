@@ -41,6 +41,7 @@ const SearchBar = ({setSearchResults})=>{
                <input type="text"  placeholder="Search..."
                 value={searchTerm}
                 onChange={(e)=>setSearchTerm(e.target.value)} 
+
                />
                <button type="submit">Submit</button>
            </form>

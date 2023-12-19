@@ -20,7 +20,8 @@ const Display = ({searchResults}) => {
             ))
         }
     </div>
+    // helooooooooooooo
   )
 }
 
-export default Display
+export default Display;
