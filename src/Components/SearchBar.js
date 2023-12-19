@@ -9,7 +9,7 @@ const SearchBar = ({setSearchResults})=>{
     useEffect(()=>{
         implementSearch();
     },[])
-
+//process obj is global to whole application
     console.log(process.env.REACT_APP_UNSLASH_ACEESS_KEY)
     
     function implementSearch(e){

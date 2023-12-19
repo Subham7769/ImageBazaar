@@ -11,7 +11,7 @@ const App = ()=>{
 
   return(
     <div>
-      <ApiBasics/>
+      {/* <ApiBasics/> */}
       <SearchBar setSearchResults={setSearchResults}/>
       <Display searchResults={searchResults}/>
     </div>

@@ -20,7 +20,6 @@ const Display = ({searchResults}) => {
             ))
         }
     </div>
-    // helooooooooooooo
   )
 }
 
